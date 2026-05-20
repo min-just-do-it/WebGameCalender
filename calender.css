@@ -1,0 +1,71 @@
+.monthly-calendar {
+  flex: 1.2;             /* 달력 영역을 조금 더 넓게 */
+  background: #fdfdfd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.calendar-days, .calendar-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7개의 열로 이쁘게 쪼개기 */
+  text-align: center;
+}
+
+.calendar-dates > div {
+  display: flex;
+  flex-direction: column;   
+  justify-content: flex-start;
+  align-items: stretch;     
+  min-height: 85px;         /* 🌟 고정 height 대신 min-height를 써서 일정이 많아지면 아래로 늘어나게 합니다 */
+  height: auto;             
+  padding: 6px 4px;
+  box-sizing: border-box;
+  border: 1px solid #e9ecef;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background 0.1s;
+}
+
+/* 날짜 칸 위에 마우스를 올렸을 때 이펙트 */
+.calendar-dates > div:hover {
+  background-color: #f8f9fa;
+}
+
+/* 선택된 날짜 칸의 테두리 강조 디자인 */
+.calendar-dates > div.selected-active {
+  background-color: #e8f4ff !important;
+  border: 2px solid #3b5bdb !important;
+}
+
+/* 🌟 일정 바(Bar) 디자인 디테일 업그레이드 */
+.calendar-event-bar {
+  font-size: 11px;
+  background-color: #3b5bdb; 
+  color: white;
+  padding: 4px 6px;         /* 위아래 간격을 살짝 넓혀서 글씨가 안 답답하게 */
+  margin-top: 4px;          /* 바와 바 사이의 간격 */
+  border-radius: 4px;
+  white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;   
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* 살짝 입체감을 줘서 예쁘게 만듦 */
+}
+
+.calendar-days div {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.calendar-dates div {
+  padding: 15px 0;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+/* 오늘 날짜 하이라이트 */
+.calendar-dates .today {
+  background-color: #00539f;
+  color: white;
+  border-radius: 50%;
+}

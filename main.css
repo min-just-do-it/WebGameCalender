@@ -1,0 +1,30 @@
+@import "calender.css";
+@import "Todo.css";
+
+/* 1. 전체 기본 틀 설정 */
+body { 
+  width: 90%;            /* 화면을 넓게 쓰도록 설정 */
+  max-width: 1200px;     /* 너무 퍼지지 않게 최대 크기 제한 */
+  margin: 0 auto; 
+  padding: 20px; 
+  border: 5px solid black; 
+}
+
+/* 2. 메인 컨테이너: */
+.main-container {
+  display: flex;
+  gap: 30px;             /* 달력과 투두리스트 사이의 간격 */
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.delete-btn:hover {
+  opacity: 1; /* 마우스를 올렸을 때만 선명하게 보이도록 */
+}
