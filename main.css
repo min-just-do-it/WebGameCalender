@@ -1,4 +1,4 @@
-@import "calender.css";
+@import "calendar.css";
 @import "Todo.css";
 
 /* 1. 전체 기본 틀 설정 */
@@ -20,11 +20,3 @@ body {
 
 
 
-
-
-
-
-
-.delete-btn:hover {
-  opacity: 1; /* 마우스를 올렸을 때만 선명하게 보이도록 */
-}

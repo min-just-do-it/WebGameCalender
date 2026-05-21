@@ -130,3 +130,7 @@ textarea {
   opacity: 0.4;
   transition: opacity 0.2s;
 }
+
+.delete-btn:hover {
+  opacity: 1; /* 마우스를 올렸을 때만 선명하게 보이도록 */
+}

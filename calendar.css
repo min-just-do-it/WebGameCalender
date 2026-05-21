@@ -7,7 +7,7 @@
 
 .calendar-days, .calendar-dates {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 7개의 열로 이쁘게 쪼개기 */
+  grid-template-columns: repeat(7, 1fr); /* 7개의 열로 쪼개기 */
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
   flex-direction: column;   
   justify-content: flex-start;
   align-items: stretch;     
-  min-height: 85px;         /* 🌟 고정 height 대신 min-height를 써서 일정이 많아지면 아래로 늘어나게 합니다 */
+  min-height: 85px;         /* 🌟 고정 height 대신 min-height를 써서 일정이 많아지면 아래로 늘어나게*/
   height: auto;             
   padding: 6px 4px;
   box-sizing: border-box;
@@ -42,14 +42,14 @@
   font-size: 11px;
   background-color: #3b5bdb; 
   color: white;
-  padding: 4px 6px;         /* 위아래 간격을 살짝 넓혀서 글씨가 안 답답하게 */
+  padding: 4px 6px;         /* 위아래 간격을 살짝 넓 힘 */
   margin-top: 4px;          /* 바와 바 사이의 간격 */
   border-radius: 4px;
   white-space: nowrap;       
   overflow: hidden;          
   text-overflow: ellipsis;   
   font-weight: bold;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* 살짝 입체감을 줘서 예쁘게 만듦 */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* 살짝 입체감 */
 }
 
 .calendar-days div {
