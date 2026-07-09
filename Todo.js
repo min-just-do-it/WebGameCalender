@@ -13,7 +13,7 @@ function addTodo() {
     eventsData[selectedDateKey].push(text); 
     renderCalendar(); // 달력 새로고침하여 바 표시
     todoInput.value = ""; 
-    return; 
+    return;
   }
 
   // [상황 B] 날짜 선택이 없으면 -> 우측 투두 리스트에 등록

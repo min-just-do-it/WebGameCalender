@@ -11,11 +11,17 @@ L Todo.js
 
 calendar: added:7개의 열, bar형 일정 추가, 
           update:
-          will:bar형 일정 추가, 화면 넒게, 날짜 클릭 시 그날의 등록페이지로 리다이렉트, 게임별 정렬기능
+          will:☑️bar형 일정 삭제, 화면 넒게, 날짜 클릭 시 그날의 등록페이지로 리다이렉트, 게임별 정렬기능
 
 Todo: added: 등록/삭제, 체크박스, 3개의 Todo창 전환, 
       update:
-      will:☑️인터넷에서 일정 긁어오기, 게임별 정렬기능
+      will: 인터넷에서 일정 긁어오기, 게임별 정렬기능
+
+
+API: Enka.Network API(hoyo-원신, 스타렐)
+HoYoLab API Wrapper (GitHub)
+Arknights Game Data (GitHub)
+https://openapi.nexon.com/ko/ 블루아카
 
 D-Day 디스플레이 및 카운트다운 기능 (추천)
 게임 클라이언트 '주요 숙제' 프리셋 (Preset)
